@@ -1,0 +1,158 @@
+/* Empty. Add your own CSS if you like */
+.mapOrientationVertical {
+  position: absolute;
+  z-index: 50;
+}
+
+.mapOrientationVertical .mapButton {
+  margin-top: 5px;
+}
+
+.mapOrientationHorizontal {
+  position: absolute;
+  z-index: 50;
+}
+
+.mapOrientationHorizontal .mapButton {
+  float: left;
+  margin-left: 5px;
+}
+
+.HomeButton .home {
+  background-color: rgba(102, 102, 102, 0.51);
+}
+
+.popupContent {
+  font-size: 16px
+}
+
+.popupTitle {
+  font-size: 16px
+}
+
+.esriPopup .pointer.top {
+  background: #1AADE7;
+  display: block;
+  left: 50%;
+  top: -8px;
+  margin-left: -8px;
+}
+
+.esriPopup .pointer.topRight {
+  background: #1AADE7;
+  display: block;
+  right: 5px;
+  top: -7px;
+}
+
+.esriPopup .pointer.topLeft {
+  background: #1AADE7;
+  display: block;
+  left: 6px;
+  top: -7px;
+}
+
+.esriPopup .titlePane {
+  height: 0;
+  background-color: #1AADE7;
+  color: #FFFFFF;
+  line-height: 30px;
+  padding-left: 6px;
+  border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  cursor: default;
+  font-size: 16px;
+}
+
+.esriPopup a {
+  color: #1AADE7; display: none;
+}
+
+.esriPopup .contentPane {
+  border-radius: 5px;
+  position: relative;
+  max-height: 300px;
+  overflow: auto;
+  padding: 0;
+  background-color: #fff;
+  color: #333333;
+  font-size: 14px
+}
+
+.esriPopup .sizer {
+  position: relative;
+  width: 220px;
+  z-index: 1;
+}
+
+.mapLegendContent {
+  bottom: 20px;
+  left: 20px;
+  padding: 8px;
+  background-color: #ffffff;
+  opacity: 0.9;
+  border: 1px solid rgba(2, 2, 25, 0.10);
+}
+
+.mapLegendLabel {
+  margin-left: 6px;
+  color: #414040;
+  float: left;
+  margin-top: 4px;
+  font-size: small
+}
+
+.customInfoWindowContentValue {
+  color: #696969;
+  padding-left: 4px;
+}
+
+/**覆盖地图popup的titleButton样式 默认隐藏**/
+.esriPopup .titleButton {
+  position: absolute;
+  top: 2px;
+  cursor: pointer;
+  display: none;
+}
+.esriSimpleSlider {
+  border: 1px solid #e6e6e6;
+}
+
+.esriSimpleSliderBR{
+  top: 10px;
+  right: 10px;
+  bottom: auto;
+}
+/**隐藏pop上标题文字，（1/4）**/
+.esriPopupWrapper .titlePane .title{
+  color: transparent;
+}
+/**隐藏pop上标题文字，（1/4）**/
+.esriPopupWrapper .titlePane b{
+  color: white;
+}
+.esriSimpleSliderTR {
+  top: 220px;
+  right: 10px;
+}
+
+.esriSimpleSliderVertical .esriSimpleSliderIncrementButton {
+  font-size: 18px;
+  border-bottom: 0.55px solid #e6e6e6;
+  color: #999;
+  line-height: 30px;
+  font-size: 18px;
+}
+.esriSimpleSliderVertical .esriSimpleSliderDecrementButton {
+  color: #999;
+  line-height: 30px;
+}
+.mapOrientationVertical .mapButton {
+  width: 36px;
+  height: 36px;
+}
+.esriSimpleSlider div {
+  width: 36px;
+  height: 36px;
+}
+

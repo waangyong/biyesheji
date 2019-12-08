@@ -1,0 +1,24 @@
+<!-- 下拉刷新 -->
+<!--<ion-refresher *ngIf="update" slot="fixed" (ionRefresh)="updateData($event)">-->
+<!--  <ion-refresher-content pullingIcon="arrow-dropdown" refreshingSpinner="circles">-->
+<!--  </ion-refresher-content>-->
+<!--</ion-refresher>-->
+<ion-list>
+  <ion-item *ngFor="let item of dataList" [detail]="type==='detail'" (click)="openDetail(item)">
+    <ion-thumbnail slot="start" *ngIf="icon || item[iconField]">
+      <ion-img [src]=icon?icon:item[iconField]></ion-img>
+    </ion-thumbnail>
+    <ion-label>
+      <h3 class="title">{{ item[titleField] || '--' }}</h3>
+      <ion-row>
+        <span class="description" [class.half-width]="desType ==='double'"
+              *ngFor="let des of desMapper">{{ (showAlias === 'true' ? des + '：' : '') + item[des] }}</span>
+      </ion-row>
+    </ion-label>
+  </ion-item>
+</ion-list>
+<!-- 上拉加载更多 -->
+<ion-infinite-scroll *ngIf="loadMore" (ionInfinite)="loadMoreData($event)">
+  <ion-infinite-scroll-content loadingSpinner="circles" loadingText="数据加载中...">
+  </ion-infinite-scroll-content>
+</ion-infinite-scroll>

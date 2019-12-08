@@ -1,0 +1,32 @@
+<ion-content>
+  <div class="login-content">
+    <div class="logo-box">
+      原型工程
+      <!-- <img src="assets/imgs/logo_title.png" width="290px"/> -->
+    </div>
+
+    <div class="inputWrapper input1" (click)='inputCLick(1)' [ngClass]="{'input-check1':userChecked}">
+      <input type="text" placeholder="请输入用户名" [(ngModel)]="loginInfo.userName" />
+    </div>
+
+    <div class="inputWrapper input2" (click)='inputCLick(2)' [ngClass]="{'input-check2':pwdChecked}">
+      <input type="password" placeholder="请输入密码" [(ngModel)]="loginInfo.passWord" />
+    </div>
+
+    <div class="login-checkbox">
+      <div>
+        <ion-checkbox [(ngModel)]="loginInfo.remName"></ion-checkbox>
+        <span (click)="remember(1)">记住用户名</span>
+      </div>
+      <div>
+        <ion-checkbox [(ngModel)]="loginInfo.remPwd"></ion-checkbox>
+        <span (click)="remember(2)">记住密码 </span>
+      </div>
+    </div>
+
+    <div class="button-box">
+      <button class="loginbtn" (click)="login()">登 录</button>
+    </div>
+  </div>
+
+</ion-content>

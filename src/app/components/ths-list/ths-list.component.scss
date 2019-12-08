@@ -1,0 +1,27 @@
+ion-list {
+  padding: 0;
+  border-bottom: 0.55px solid #ccc;
+
+  ion-thumbnail {
+    width: 34px;
+    height: 34px;
+  }
+
+  .title {
+    font-size: 15px;
+  }
+
+  .description {
+    color: #77818e;
+    font-size: 13px;
+    width: 100%;
+  }
+
+  ion-item:last-child {
+    --inner-border-width: 0 0 0 0;
+  }
+}
+
+.half-width {
+  width: 50% !important;
+}

@@ -1,0 +1,55 @@
+{
+  "_from": "cordova-plugin-keychain-uuid",
+  "_id": "cordova-plugin-keychain-uuid@1.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-5xgfHHtJ6FzX5LpqvqVqrjSkVKuHTBRUaYhag6Amq3BU17y9UbD3ikQmr/i9FzyMPlhfbZng2yc1m/IwwZs7kQ==",
+  "_location": "/cordova-plugin-keychain-uuid",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-keychain-uuid",
+    "name": "cordova-plugin-keychain-uuid",
+    "escapedName": "cordova-plugin-keychain-uuid",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-keychain-uuid/-/cordova-plugin-keychain-uuid-1.0.4.tgz",
+  "_shasum": "c42006198d015f7c88dd70efbd85661940536e52",
+  "_spec": "cordova-plugin-keychain-uuid",
+  "_where": "D:\\Projects\\ionic4-starter",
+  "author": {
+    "name": "jason.z"
+  },
+  "bugs": {
+    "url": "https://github.com/jasonz1987/cordova-plugin-keychain-uuid/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": " crodova plugin for getting uuid from keychain",
+  "homepage": "https://github.com/jasonz1987/cordova-plugin-keychain-uuid#readme",
+  "keywords": [
+    "keychain",
+    "uuid",
+    "ios",
+    "cordova",
+    "deviceid",
+    "uniqueid"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "cordova-plugin-keychain-uuid",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonz1987/cordova-plugin-keychain-uuid.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.4"
+}

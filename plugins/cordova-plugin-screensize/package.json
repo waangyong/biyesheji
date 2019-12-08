@@ -1,0 +1,68 @@
+{
+  "_from": "git+https://github.com/pbakondy/cordova-plugin-screensize.git",
+  "_id": "cordova-plugin-screensize@1.3.1",
+  "_inBundle": false,
+  "_location": "/cordova-plugin-screensize",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/pbakondy/cordova-plugin-screensize",
+    "rawSpec": "https://github.com/pbakondy/cordova-plugin-screensize",
+    "saveSpec": "git+https://github.com/pbakondy/cordova-plugin-screensize.git",
+    "fetchSpec": "https://github.com/pbakondy/cordova-plugin-screensize.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/pbakondy/cordova-plugin-screensize.git#525e021b74c82fea49b0d9fc88f2d3fae86a29ba",
+  "_spec": "https://github.com/pbakondy/cordova-plugin-screensize",
+  "_where": "C:\\Users\\cj\\Desktop\\MechanicalFiling",
+  "author": {
+    "name": "Peter Bakondy"
+  },
+  "bugs": {
+    "url": "https://github.com/pbakondy/cordova-plugin-screensize/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-screensize",
+    "platforms": [
+      "android",
+      "ios",
+      "osx",
+      "browser"
+    ]
+  },
+  "deprecated": false,
+  "description": "A cordova plugin to get the size of the device screen",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "homepage": "https://github.com/pbakondy/cordova-plugin-screensize#readme",
+  "keywords": [
+    "cordova",
+    "screen",
+    "screensize",
+    "width",
+    "height",
+    "diameter",
+    "viewport",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-osx",
+    "cordova-browser"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-screensize",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbakondy/cordova-plugin-screensize.git"
+  },
+  "version": "1.3.1"
+}

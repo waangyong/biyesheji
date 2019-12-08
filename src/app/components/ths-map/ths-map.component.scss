@@ -1,0 +1,100 @@
+.esriMapButton {
+  // background-color: rgba(0,0,0,0.5);
+  background-color: rgba(255, 255, 255, 1);
+  border: none;
+  z-index: 30;
+  // display: none;
+  border: 1px solid #c0c0c0;
+}
+
+.esriMaplayerBR {
+  top: 90px;
+  right: 10px;
+  // display: none;
+}
+
+.esriMaplayerTL {
+  top: 140px;
+  left: 10px;
+}
+
+.esriMaplayerTR {
+  top: 140px;
+  right: 10px;
+}
+
+.esriMaplayerBL {
+  bottom: 140px;
+  left: 10px;
+}
+
+.esriMaplayerButton {
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  background: url(../../../assets/img/tc.png) no-repeat center;
+  background-size: 65%;
+}
+
+.esriMapHomeBR {
+  top: 132px;
+  right: 10px;
+}
+
+.esriMapHomeTL {
+  top: 200px;
+  left: 10px;
+}
+
+.esriMapHomeTR {
+  top: 200px;
+  right: 10px;
+}
+
+.esriMapHomeBL {
+  bottom: 200px;
+  left: 10px;
+}
+
+.esriMapHomeButton {
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  background: url(../../../assets/img/location.svg) no-repeat center;
+  background-size: 20px;
+}
+
+.map {
+  height: calc(100% - 0px);
+}
+
+.esriSimpleSlider div {
+  width: 36px;
+  height: 36px;
+}
+
+.esriSimpleSlider {
+  background-color: (255, 255, 255, 1);
+  color: rgb(168, 179, 193);
+  border: 0 none !important;
+  box-shadow: #ddd 0 0 10px;
+}
+
+.esriSimpleSliderDecrementButton:hover, .esriSimpleSliderIncrementButton:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.esriSimpleSliderVertical .esriSimpleSliderIncrementButton {
+  border-bottom: 1px solid #c0c0c0;
+}
+
+.esriPopup .esriPopupWrapper {
+  display: none;
+}
+
+.esriPopup .outerPointer.left {
+  display: none;
+}
+
+.esriPopup .sizer {
+  display: none !important;
+}
+

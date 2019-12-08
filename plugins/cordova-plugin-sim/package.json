@@ -1,0 +1,70 @@
+{
+  "_from": "git+https://github.com/pbakondy/cordova-plugin-sim.git",
+  "_id": "cordova-plugin-sim@1.3.3",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-plugin-sim",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/pbakondy/cordova-plugin-sim",
+    "rawSpec": "https://github.com/pbakondy/cordova-plugin-sim",
+    "saveSpec": "git+https://github.com/pbakondy/cordova-plugin-sim.git",
+    "fetchSpec": "https://github.com/pbakondy/cordova-plugin-sim.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/pbakondy/cordova-plugin-sim.git#f9e84c022642d54fa363af015212e42483629669",
+  "_spec": "https://github.com/pbakondy/cordova-plugin-sim",
+  "_where": "E:\\work\\beijingsilu\\ionic4-starter\\appDemo",
+  "author": {
+    "name": "Peter Bakondy"
+  },
+  "bugs": {
+    "url": "https://github.com/pbakondy/cordova-plugin-sim/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-sim",
+    "platforms": [
+      "android",
+      "ios",
+      "wp7",
+      "wp8",
+      "windows"
+    ]
+  },
+  "deprecated": false,
+  "description": "A plugin to get the device's SIM data (carrier name, mcc mnc, country code, telephonenumber, imei, etc)",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "homepage": "https://github.com/pbakondy/cordova-plugin-sim#readme",
+  "keywords": [
+    "cordova",
+    "sim",
+    "uicc",
+    "carrier",
+    "mcc",
+    "mnc",
+    "telephonenumber",
+    "imei",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-sim",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbakondy/cordova-plugin-sim.git"
+  },
+  "version": "1.3.3"
+}

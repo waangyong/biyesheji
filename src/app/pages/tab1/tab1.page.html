@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>列表</ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon name="add"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content color="light">
+  <ion-refresher slot="fixed" (ionRefresh)="refreshList($event)">
+    <ion-refresher-content pullingIcon="arrow-dropdown" refreshingSpinner="circles">
+    </ion-refresher-content>
+  </ion-refresher>
+  <app-ths-list [data]="supervisionList" titleField="title" type="detail" [aliasFields]="aliasFields" desType="double"
+                (update)="refreshList($event)" (loadMore)="loadMoreData($event)"
+                iconField="icon" icon="../../assets/img/jb.png" showAlias="false"
+                (itemClick)="openDetail($event)"></app-ths-list>
+</ion-content>
